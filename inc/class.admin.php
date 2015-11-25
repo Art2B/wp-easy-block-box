@@ -15,7 +15,7 @@ class myTinyMceButton_Admin{
 
     function wp_ajax_fct(){
         ?>
-        <h2><?php _e("L'Oréal custom contour", 'mytmceb');?></h2>
+        <h2><?php _e("Custom block box", 'mytmceb');?></h2>
         <p>
             <?php _e("Please enter the text that should fit in a box: ", 'mytmceb');?><br />
             <textarea name="mytmceb_text" id="mytmceb_text" value="<?php _e('make some magic','mytmceb');?>"></textarea>
