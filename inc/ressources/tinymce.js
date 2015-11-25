@@ -33,7 +33,7 @@
 })();
 
 function mybutton_create_shortcode() {
-    return '[mybox]' + nl2br(jQuery('#mytmceb_text').val(),false) +'[/mybox]';
+    return '[easybox]' + nl2br(jQuery('#mytmceb_text').val(),false) +'[/easybox]';
 }
 
 function nl2br (str, is_xhtml) {   
