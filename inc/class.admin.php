@@ -27,6 +27,7 @@ class myTinyMceButton_Admin{
             function sample(){
                 tinyMCE.execCommand('mceRemoveControl', false, 'mytmceb_text');
                 jQuery("#mytmceb_text").tinymce_textareas();
+                document.getElementById('mytmceb_text').focus();
             }
             setTimeout(sample,1000);
         </script>    

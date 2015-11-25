@@ -12,7 +12,6 @@
             ed.addCommand('mceMyButtonInsert', function(ui, v) {
                 tb_show('', ajaxurl + '?action=mybutton_shortcodePrinter');
                 if(called == false) {
-                    console.log('now is called');
                     called = true;
                     jQuery('#mytmceb_button').live("click", function(e) {
                         e.preventDefault();
